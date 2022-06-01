@@ -1,5 +1,6 @@
-ToDo List:
-
+# ToDo List:
+ 
+- Add link to readme for more info
 - Convert to coockie-cutter for flask
 - Make a docker-compose.yml for all stages
 - docker-compose for external services (redis, mongo, postgres, rabbitmq etc))
