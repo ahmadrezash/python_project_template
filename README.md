@@ -16,12 +16,18 @@ with split docker and requirements and config files
 ## Points to have better project structure
 
 * `__init__`: just import in init file
-* using `semver` method with `bumb version`
-* using `git strategy` for branches management
-* using commit message template e.g. `[type]:[module]-[desc]`
-* using a standard linter for code quality (pylint, flake8, pep8, black) -> suggest to use `pep8`
+* `services` is contain any external service (for microservices)
+* using `semver` method with `bumb version` tools for versioning
+* using `git strategy` for branches management system
+* using commit message template e.g. `[type]:[module]-[desc]` for more readable commit messages
+* using a standard linter for code quality and readability (pylint, flake8, pep8, black) -> suggest to use `pep8`
 * using `Sphinx` documentation
 * using `pytest` for tests
+
+## Your Contribution:
+* add new section
+* improve existing section
+* introduce new structure in a section
 
 ``` sh
 /project
@@ -52,6 +58,9 @@ with split docker and requirements and config files
 │    │    │    ├── base_service.py
 │    │    │    └── [service].py
 │    │    ├── /translation
+│    │    ├── /log
+│    │    │    ├── handlers.py
+│    │    │    └── helpers.py
 │    │    ├── bootstrap.py
 │    │    ├── urls
 │    │    ├── settings.py
@@ -116,6 +125,7 @@ with split docker and requirements and config files
 ├── CHANGELOG.md
 ├── TODOLIST.md
 ├── AUTHORS.md
+├── LICENSE
 ├── /.run
 ├── .gitignore
 ├── .dockerignore
