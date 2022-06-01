@@ -4,6 +4,7 @@
 │    ├── __init__.py
 │    ├── __main__.py
 │    ├── wsgi.py
+│    ├── /migrations
 │    ├── /main
 │    │    ├── __init__.py
 │    │    ├── /db
@@ -43,7 +44,6 @@
 │    │   ├── /services
 │    └── /module2
 │        └── ...
-├── /migrations
 ├── /logs
 │   ├── app
 │   ├── db
