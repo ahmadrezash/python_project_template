@@ -1,3 +1,28 @@
+# Python Project Template (PPT)
+
+I'm python developer for many years. I'm working with many frameworks and libraries. Always project structure is my
+important point. After using Django and drf and Flask and FastAPI I'm trying to create a template for python project.
+With all experience I'm trying to create a template for python project. You can use this template for your project and
+suggest me what you can improve. Tnx a lot.
+
+## Stages
+
+* `dev` (development)
+* `test`
+* `prod` (production)
+
+with split docker and requirements and config files
+
+## Points to have better project structure
+
+* `__init__`: just import in init file
+* using `semver` method with `bumb version`
+* using `git strategy` for branches management
+* using commit message template e.g. `[type]:[module]-[desc]`
+* using a standard linter for code quality (pylint, flake8, pep8, black) -> suggest to use `pep8`
+* using `Sphinx` documentation
+* using `pytest` for tests
+
 ``` sh
 /project
 ├── /src
