@@ -1,4 +1,4 @@
-![image_info](./statics/img/logo.svg){width=40%}
+![image_info](./statics/img/logo.svg){width=50%}
 # Python Project Template (PPT)
 
 I'm python developer for many years. I'm working with many frameworks and libraries. Always project structure is my
@@ -18,12 +18,13 @@ with split docker and requirements and config files
 
 * `__init__`: just import in init file
 * `services` is contain any external service (for microservices)
-* using `semver` method with `bumb version` tools for versioning
-* using `git strategy` for branches management system
+* using `semver` method with `bumb version` tools for versioning ([read here](https://semver.org/) and [see here](https://github.com/c4urself/bump2version))
+* using `git strategy` for branches management system ([read here](http://nvie.com/git-model) and [see here](https://github.com/nvie/gitflow)) 
 * using commit message template e.g. `[type]:[module]-[desc]` for more readable commit messages
-* using a standard linter for code quality and readability (pylint, flake8, pep8, black) -> suggest to use `pep8`
-* using `Sphinx` documentation
-* using `pytest` for tests
+* using a standard linter for code quality and readability (pylint, flake8, pep8, black) -> suggest to use `pep8` ([here](https://peps.python.org/pep-0008/))
+* using `Sphinx` documentation ([here](https://www.sphinx-doc.org/en/master/))
+* using `pytest` for tests ([here](https://docs.pytest.org/en/latest/))
+* using documentation for your project ([here](https://realpython.com/documenting-python-code/)) -> suggest to use [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)
 
 ## Your Contribution:
 * add new section
