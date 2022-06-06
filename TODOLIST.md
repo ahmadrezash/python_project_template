@@ -16,3 +16,4 @@
 - [ ] tell about mvc
 - [ ] tell about type checking
 - [ ] add backup mechanism for db
+- [ ] get open-api documentation
