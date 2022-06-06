@@ -1,3 +1,4 @@
+![image_info](./statics/img/logo.svg){width=40%}
 # Python Project Template (PPT)
 
 I'm python developer for many years. I'm working with many frameworks and libraries. Always project structure is my

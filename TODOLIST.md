@@ -13,3 +13,6 @@
 - add middleware mechanism
 - add ci/cd mechanism
 - add celery config for running tasks
+- tell about mvc
+- tell about type checking
+- add backup mechanism for db
